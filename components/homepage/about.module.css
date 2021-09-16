@@ -1,0 +1,23 @@
+.about {
+  text-align: left;
+  background-color: var(--color-primary);
+  padding: 0 10vw 0 10vw;
+  height: 100vh;
+}
+
+.about h1 {
+  font-size: 3rem;
+  color: var(--color-white);
+  padding: 0 0 10vh 0;
+}
+
+.about p {
+  font-size: var(--size-4);
+  color: var(--color-gray);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
